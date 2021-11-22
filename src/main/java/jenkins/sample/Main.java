@@ -1,3 +1,5 @@
+package jenkins.sample;
+
 public class Main {
     private int x=1,y=2;
 
