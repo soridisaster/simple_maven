@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>jenkins-sample</artifactId>
-    <version>${version}</version>
+    <version>${build_version}</version>
 
     <dependencies>
         <dependency>
@@ -47,7 +47,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
                                         <Main-Class>jenkins.sample.Main</Main-Class>
-                                        <Build-Number>${version}</Build-Number>
+                                        <Build-Number>${build_version}</Build-Number>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
