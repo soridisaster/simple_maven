@@ -23,7 +23,7 @@ public class MainTest {
         try {
 
             assertEquals(3, new Main().getSum());
-            assertEquals(4+5, new Main(4,5).getSum());
+            assertEquals(4+6, new Main(4,5).getSum());
         } catch (Exception e) {
             fail(e.toString());
         }
