@@ -6,3 +6,4 @@ You can compile, execute tests and build uber jar. Maven commands for this:
 * mvn compile
 * mvn test
 * mvn package (see maven-shade-plugin)
+  
