@@ -15,6 +15,6 @@ public class Main {
     }
 
     public int getSum(){
-        return x + y;
+        return x + z;//тут x + y
     }
 }
